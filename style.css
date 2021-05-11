@@ -1,0 +1,46 @@
+body {
+  display: block;
+  background-color: #ccc;
+  height: 90vh;
+  width: 95vw;
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+  margin-top: 2rem;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 20rem;
+  width: 50rem;
+  margin-bottom: 3rem;
+  /* background-color: black; */
+}
+.play,
+.pause {
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+  object-position: 10% 10%;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.audio_player {
+  width: 50rem;
+  margin-bottom: 3rem;
+}
+div[class*='audio_bar_'] {
+  background-color: green;
+}
+.completed {
+  background-color: yellow !important;
+}
